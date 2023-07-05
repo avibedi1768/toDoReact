@@ -57,8 +57,6 @@ function App() {
   return (
       <BrowserRouter>
         <Header title='My Todos List' searchbar={false} />
-        {/* Routes sara check krda te corresponding matching wale component nu render kr denda*/}
-
         <Routes>
           <Route exact path="/" element={
               <div>
